@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shope</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-Xbg45MqvDIk1e563NLpGEulpX6AvL404DP+/iCgW9eFa2BqztiwTexswJo2jLMue" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+    </style>
+</head>
+<body class="show-alert">
+    <div class="overlay"></div>
+     <div class="alert alert-warning alert-dismissible fade show" role="alert" for="close">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" id="closeBtn"></button>
+            <div class="row">
+                <div class=" col-12 col-md-12 col-lg-6 mb-3 "><img src="https://shorturl.at/WzE6T" alt="discount imge" class="img-fluid rounded w-100"></div>
+                <div class=" col-12 col-md-12 col-lg-6">
+                  <form action="#" method="get">
+                  <h3 class="text-center">Enjoy 10% off</h3>
+                  <p><strong>Be the first to access amazing deals, offers, and product recommendations just for you.</strong></p>
+                  <input type="email" class="form-control mb-2" aria-describedby="emailHelp" placeholder="Email Adress" >
+                  <p style="font-size: 0.8rem; display:inline;">You will receive offers from Amazone in accordance with our privacy policy. Unsubscribe at any time.</p>
+                  <a href="#">Privacy Policy.</a>
+                  <a href="#"> Terms </a>
+                  </form>
+                </div>
+            </div>
+        </div>
+    <script>
+        const closeBtn = document.getElementById("closeBtn");
+        closeBtn.addEventListener("click", () => {
+            document.body.classList.remove("show-alert");
+        });
+    </script> 
+    <header>
+<nav class="navbar  navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#">Best<span style="color:black;">Shop</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Furniture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Beding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Bath</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  role= button"  aria-current="page" href="#">Kitchen & Dining</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Baby & Kids</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Lighting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Gifts</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                 <input class="form-control me-5 m-2 w-100" type="search" placeholder="Search" aria-label="Search"/>
+                 <button class="btn btn-outline-success m-2" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+    </header>
+    <main>
+        <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item  active" data-bs-interval="2000">
+                    <img src="https://shorturl.at/mfW2o" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Stylish Living Spaces </h5>
+                        <p>Discover beautiful furniture for your modern home.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://shorturl.at/SLKML" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Stylish Living Spaces</h5>
+                        <p>Discover beautiful furniture for your modern home.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://shorturl.at/bBMRC" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5> Smart Kitchen</h5>
+                        <p> Equip your kitchen with the latest tools and gadgets.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="all">
+            <!-- first-part -->
+            <div class="container">
+                <h4 class="title">Kitchen Essentials</h4>
+                <div class="row g-2">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/gCLvz" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn  slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/UDdmc" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/rUehj" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/kpYWn" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="title">Living Room Collection</h4>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://www.therange.co.uk/media/4/9/1691501094_12_6614.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/rmG2n" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/ISbp2" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="https://shorturl.at/Zqwg3" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning slect-more">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    <div class="container mt-3 bathroom">
+        <div class="row ">
+            <div class=" col-sm-9"><img src="https://shorturl.at/xBJar" alt="" class="img-fluid rounded w-100 "></div>
+             <div class=" col-sm-3  align-content-sm-center">Shop your favorite bathroom essentials with ease and security.</div>
+        </div>
+    </div>
+<!-- bed -->
+ <div class="container mt-3">
+<h4 class="title">Bedroom Favorites</h4>
+            <div class="row g-2">
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://shorturl.at/9OyWJ" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning slect-more">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://shorturl.at/uiynG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning slect-more">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://shorturl.at/2JEC9" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning slect-more">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://shorturl.at/Glcai" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning slect-more">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ </div>
+    </main>
+    <footer>
+        <div class="d-flex flex-row p-4 justify-content-around">
+            <div class=" d-flex flex-column p-2">
+            <h6>contacts us</h6>
+            <a href="#">contact us </a>
+            <a href="#">Track your order</a>
+            <a href="#">Returns topics</a>
+            <a href="#">Help topics</a>
+            <a href="#">Shiping information</a>
+            <a href="#">Give us feedback</a>
+            <a href="#">Safety recalls</a>
+            </div>
+             <div class=" d-flex flex-column p-2">
+            <h6>Resources</h6>
+            <a href="#">The key Rewards</a>
+            <a href="#">Apply for Credit card</a>
+            <a href="#">Manage credit card account</a>
+            <a href="#">Pay bill online</a>
+            <a href="#">Gift cards</a>
+            </div>
+
+             <div class=" d-flex flex-column p-2">
+            <h6>More about us</h6>
+            <a href="#">Sustainability</a>
+            <a href="#">Responsible retail glossary</a>
+            <a href="#">Rress</a>
+            <a href="#">Careers</a>
+            <a href="#">Find a store</a>
+            </div>
+             <div class=" d-flex flex-column p-2">
+            <h6>Customer care</h6>
+            <a href="#">F&Q</a>
+            <a href="#">Support</a>
+            <a href="#">Live Chat</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
